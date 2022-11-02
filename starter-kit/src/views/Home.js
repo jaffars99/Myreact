@@ -8,7 +8,7 @@
 // } from "reactstrap"
 import React from 'react'
 //import ReactDOM from 'react-dom/client';
-// import Navbar from './navbar';
+ import Navbar from './navbar' 
 import Mainpage from './mainpage'
 // import './component/nav.css';
 import Products from './Product'
@@ -24,6 +24,7 @@ class Home extends React.Component {
   render() {
       return (
       <div>
+        <Navbar />
     <Mainpage />
     <Products/>
     <Feature/>
@@ -31,7 +32,7 @@ class Home extends React.Component {
     <Award/>
     <Collab/>
     <Stats/>
-    {/* <Footer/> */} 
+    
       </div>
       )
   }

@@ -130,7 +130,7 @@ const HorizontalLayout = (props) => {
           }
         )}
       >
-        {!navbar && (
+        {/* {!navbar && (
           <div className="navbar-header d-xl-block d-none">
             <ul className="nav navbar-nav">
               <NavItem>
@@ -143,9 +143,9 @@ const HorizontalLayout = (props) => {
               </NavItem>
             </ul>
           </div>
-        )}
+        )} */}
 
-        <div className="navbar-container d-flex content">
+        <div>
           {navbar ? (
             navbar({ skin, setSkin })
           ) : (

@@ -50,7 +50,6 @@ function Canvas() {
               if (y < canvas.height - 200) {
                 this.element.style.width = 300 + 'px';
                 this.element.style.height = 300 + 'px';
-          
               }
             },
             changeDirectionIfNecessary: function (x, y) {//intersection part & direction change 

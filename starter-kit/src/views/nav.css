@@ -1,9 +1,11 @@
 .navsvg{
-     margin-top:-90px;  
-    width: 98%;
-    margin-left: 1.5%;
+      margin-top: -80px; 
+    /* margin-left: 1.5%; */
+    width: 150px;
+    height: 150px;
+    z-index: 990;
 }
-.para{
+/* .para{
     margin-left: 10%;
     width: 651px;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,8 +13,8 @@
     font-weight: 300;
     font-size: 25px;
     color:#373737;
-}
-.animate{
+} */
+/* .animate{
     margin-left: 10%;
     width: 229px;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,8 +22,8 @@
     font-weight: 700;
     font-size: 45px;
     color:#373737;
-}
-.Head{
+} */
+/* .Head{
     margin-left: 10%;
     width: 454px;
     font-family: Arial, Helvetica, sans-serif;
@@ -32,8 +34,9 @@
     -webkit-text-stroke: 3px black;
     text-shadow: 3px 7px 7px rgba(0,0,0,0.3);
     color:transparent;
-}
+} */
  ul{
+    margin-bottom: 30px;
     margin-right: 10%;
     display: flex;
     flex-direction: row;
@@ -57,7 +60,7 @@ li{
     list-style-type: none;
     cursor: pointer;
 }
-nav{
+.nav{
     margin-top: -70px;
     display: flex;
     flex-direction: row;
@@ -108,9 +111,9 @@ nav{
     backdrop-filter: blur(120px);
     border-radius: 10px;
     border: 2px solid orange;
-    z-index:9;
+    /* z-index:9; */
 }
-.navsvg1{
+/* .navsvg1{
     height: 220px;
     width: 220px;
-}
+} */
