@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom"
 import Layout from "@layouts/HorizontalLayout"
 
 // ** Menu Items Array
-import navigation from "@src/navigation/horizontal"
+// import navigation from "@src/navigation/horizontal"
 
 const HorizontalLayout = (props) => {
   // const [menuData, setMenuData] = useState([])
@@ -17,7 +17,7 @@ const HorizontalLayout = (props) => {
   // }, [])
 
   return (
-    <Layout menuData={navigation} {...props}>
+    <Layout  menuData={navigation} {...props}>
       <Outlet />
     </Layout>
   )

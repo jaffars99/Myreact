@@ -1,12 +1,12 @@
 // ** Horizontal Menu Components
-import HorizontalNavMenuItems from "./HorizontalNavMenuItems"
+// import HorizontalNavMenuItems from "./HorizontalNavMenuItems"
 
-const HorizontalMenu = ({ menuData }) => {
+const HorizontalMenu = ({  }) => {
   return (
     <div className="navbar-container main-menu-content">
-      <ul className="nav navbar-nav" id="main-menu-navigation">
+      {/* <ul className="nav navbar-nav" id="main-menu-navigation">
         <HorizontalNavMenuItems submenu={false} items={menuData} />
-      </ul>
+      </ul> */}
     </div>
   )
 }

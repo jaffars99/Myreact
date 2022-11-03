@@ -4,7 +4,7 @@
 const themeConfig = {
   app: {
     // appName: "1clickcapital",
-    appLogoImage: require("@src/assets/images/logo/1 click -Logo for Light BG 1.svg").default
+   // appLogoImage: require("@src/assets/images/logo/1 click -Logo for Light BG 1.svg").default
   },
   layout: {
     isRTL: false,
